@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Orbitron';
+}
+
+.container{
+    margin: 50px 10rem;
+}
+
+.navbar-container,.list,.button-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-container img{
+    width: 110px;
+  
+}
+.list{
+    margin-left: 70px;
+}
+.list li{
+    list-style: none;
+    margin-right: 50px;
+    font-size: 19px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.list li:first-child:after {
+    content: ' ';
+    display: block;
+    background-color: #000;
+    
+    margin: 0 10px;
+    height: 2px;
+    
+}
+.search-icon svg{
+    width: 20px;
+}
+.nav-button{
+    padding: 5px 40px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin-left: 10px;
+    color: #4a4a4a;
+    font-size: 20px;
+}
+
+
+/* hero section */
+.hero-container{
+    position: relative;
+    display: flex;
+}
+/* .hero-container span img{
+    position: absolute;
+    top: 0;
+    right: 10px;
+} */
+
+img[alt=person-hero-iamge]{
+    position: absolute;
+    top: 60px;
+    width: 350px;
+}
+.square img{
+    position: absolute;
+    top: 190px;
+    left: 70px;
+    width: 350px;
+}
+.hero-container-right{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 60%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.star img{
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    width: 50px;
+}
+.globe img{
+    position: absolute;
+    top: 50px;
+    left: 53%;
+    width: 50px;
+}
+.star2 img{
+    position: absolute;
+   top: 450px;
+    left: 45%;
+    width: 40px;
+
+}
+.hero-heading{
+    font-size: 48px;
+}
+
+.hero-description{
+    font-size: 12px;
+    width: 80%;
+    margin: 40px auto;
+    color:#818181;
+}
+
+.button-email{
+    padding: 5px 50px ;
+    border: 2px solid #000;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #808080;
+
+}
+.button-join{
+    padding: 5px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.contact-heading{
+    margin-top: 100px;
+    color: #575757;
+}
+.icons{
+    margin-top: 20px;
+}
+.icons span img{
+    width: 30px;
+    margin-right: 10px;
+}
