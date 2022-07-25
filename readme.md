@@ -1,5 +1,7 @@
 # Street Style Landing Page
 
+![Image](./street%20landing%20page.PNG)
+
 ## Skills acquired in this project
 
 - Positioning elements
